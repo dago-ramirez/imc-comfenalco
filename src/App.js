@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CicloDeVida from './components/CicloDeVide'
+import CicloDeVida from './components/CicloDeVide';
 
 function App() {
   return (

@@ -44,7 +44,7 @@ export default class CicloDeVida extends Component {
                 <ul>
                     {this.state.quotes.map((element,index) => {
                         return <li key={index}>
-                            <b>Autor: {element.author}</b>
+                            <b>Autor: {element.author}. </b>
                             {element.quote}
                         </li>
                     })
